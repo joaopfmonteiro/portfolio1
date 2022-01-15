@@ -11,7 +11,7 @@ export default () => {
         I'm a frontend developer
     </b>
     <b className="job--logo">
-        puy instagram logo and gitHub logo
+        tem de estar instagram logo and gitHub logo
     </b>
 </div>
     )
