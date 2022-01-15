@@ -1,19 +1,21 @@
+import React from 'react';
+import Body from './body';
 import './App.css';
 
-function App() {
+export default() => {
   return (
     <div className="App">
+      <Body />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a>
-          Learn React
-        </a>
       </header>
+      <body>
+        <b></b>
+      </body>
     </div>
   );
 }
 
-export default App;
+
+ 
