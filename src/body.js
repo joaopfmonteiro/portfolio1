@@ -1,5 +1,7 @@
 import React from "react";
 import  "./body.css";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default () => {
     return(
@@ -11,7 +13,8 @@ export default () => {
         I'm a frontend developer
     </b>
     <b className="job--logo">
-        tem de estar instagram logo and gitHub logo
+        <GitHubIcon/>
+        <LinkedInIcon/>
     </b>
 </div>
     )
