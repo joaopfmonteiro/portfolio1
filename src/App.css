@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-cff15.appspot.com/o/wallpaper-de-surf.jpg?alt=media&token=d26fbbca-6c61-47c9-873c-4cc01e3c9c2c") ;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-cff15.appspot.com/o/wallpaper-de-surf%20(5).jpg?alt=media&token=654320b7-f2da-4e0c-8fe4-73889e48e2d7");
+  background-size: cover;
+ 
   color: #fff;
 }
