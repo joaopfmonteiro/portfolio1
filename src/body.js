@@ -10,11 +10,15 @@ export default () => {
         I'm João Monteiro
     </b>
     <b className="introduction">
-        I'm a frontend developer
+        Frontend Developer
     </b>
     <b className="job--logo">
-        <GitHubIcon/>
-        <LinkedInIcon/>
+        <b className="log--gitHub">
+        <a href="https://github.com/joaopfmonteiro"><GitHubIcon/></a>
+        </b>
+        <b className="log--linkdin">
+            <a href="https://www.linkedin.com/in/joao-pereira-monteiro3/"><LinkedInIcon/></a>
+        </b>
     </b>
 </div>
     )

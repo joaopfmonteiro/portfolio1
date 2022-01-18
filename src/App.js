@@ -5,7 +5,7 @@ import './App.css';
 export default() => {
   return (
     <div className="App">
-      <Body />
+      <Body/>
       <header className="App-header">
         <p>
         </p>
