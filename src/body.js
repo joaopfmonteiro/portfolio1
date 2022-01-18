@@ -14,10 +14,10 @@ export default () => {
     </b>
     <b className="job--logo">
         <b className="log--gitHub">
-        <a href="https://github.com/joaopfmonteiro"><GitHubIcon/></a>
+        <a href="https://github.com/joaopfmonteiro" target="_blank" ><GitHubIcon/></a>
         </b>
         <b className="log--linkdin">
-            <a href="https://www.linkedin.com/in/joao-pereira-monteiro3/"><LinkedInIcon/></a>
+            <a href="https://www.linkedin.com/in/joao-pereira-monteiro3/" target="_blank"><LinkedInIcon/></a>
         </b>
     </b>
 </div>
