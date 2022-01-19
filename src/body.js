@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default () => {
     return(
-<div>
+<div className="body">
     <b className="name">
         I'm João Monteiro
     </b>
