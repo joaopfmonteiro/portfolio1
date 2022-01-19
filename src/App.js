@@ -1,21 +1,18 @@
 import React from 'react';
-import Body from './body';
+import Body from './body.js';
 import './App.css';
+import Header from './header.js';
 
 export default() => {
   return (
-    <div className="App">
-      <Body/>
-      <header className="App-header">
-        <p>
-        </p>
-      </header>
-      <body>
-        <b></b>
-      </body>
-    </div>
+    <div className="app">
+      <div className='header'><Header/></div>
+      <div className='body'><Body/></div>
+  </div>
   );
 }
+
+    
 
 
  

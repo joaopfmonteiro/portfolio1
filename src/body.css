@@ -1,8 +1,9 @@
-div {
+div.body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    margin-top: 16vh;
 }
 .name {
     display: flex;
