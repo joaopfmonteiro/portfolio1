@@ -10,9 +10,4 @@ export default() => {
       <div className='body'><Body/></div>
   </div>
   );
-
-}
-
-
-
- 
+  }
