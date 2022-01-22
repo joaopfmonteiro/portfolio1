@@ -3,7 +3,6 @@ import Body from './body.js';
 import './App.css';
 import About from './about'
 import Resume from './Resume.js';
-import Header from './header.js';
 import Work from './Work.js';
 import Contact from './Contact.js';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
