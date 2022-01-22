@@ -8,6 +8,7 @@ import Work from './Work.js';
 import Contact from './Contact.js';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
+
 const App = () => (
   <Router>
     <div>
@@ -41,6 +42,17 @@ const App = () => (
 
 export default App;
     
+=======
+export default() => {
+  return (
+    <div className="app">
+      <div className='header'><Header/></div>
+      <div className='body'><Body/></div>
+  </div>
+  );
+
+}
+
 
 
  
