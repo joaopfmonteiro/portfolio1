@@ -39,19 +39,4 @@ const App = () => (
   </Router>
 );
 
-export default App;
-    
-=======
-export default() => {
-  return (
-    <div className="app">
-      <div className='header'><Header/></div>
-      <div className='body'><Body/></div>
-  </div>
-  );
-
-}
-
-
-
- 
+ export default App;
