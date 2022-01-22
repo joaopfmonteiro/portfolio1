@@ -10,7 +10,7 @@ export default () => {
         I'm João Monteiro
     </b>
     <b className="introduction">
-        Frontend Developer
+        Front-End Developer
     </b>
     <b className="job--logo">
         <b className="log--gitHub">

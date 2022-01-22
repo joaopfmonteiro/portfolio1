@@ -14,13 +14,23 @@ div.app {
   width: 100vw;
   grid-template-rows: 1fr 16fr;
 }
-div.header{
+ul{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-self: flex-start;
   margin-top: 10px;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  font-size: 20px;
+  list-style: none;
+}
+:link{
+  text-decoration: none;
 
 }
+
+
 div.body{
   display: flex;
   align-self: center;
