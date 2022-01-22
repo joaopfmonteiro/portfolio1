@@ -4,16 +4,10 @@ import './App.css';
 import About from './about'
 import Resume from './Resume.js';
 import Header from './header.js';
+import Work from './Work.js';
+import Contact from './Contact.js';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-// export default() => {
-//   return (
-//     <div className="app">
-//       <div className='header'><Header/></div>
-//       <div className='body'><Body/></div>
-//   </div>
-//   );
-// }
 const App = () => (
   <Router>
     <div>
@@ -21,7 +15,8 @@ const App = () => (
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/resume">Resume</Link></li>
-        <li><Link to="/work">work</Link></li>
+        <li><Link to="/work">Work</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
       </ul>
 
       <hr />
@@ -33,6 +28,12 @@ const App = () => (
       </Routes>
       <Routes>
       <Route path="/resume" element={<Resume/>} />
+      </Routes>
+      <Routes>
+      <Route path="/work" element={<Work/>} />
+      </Routes> 
+      <Routes>
+      <Route path="/contact" element={<Contact/>} />
       </Routes> 
     </div>
   </Router>

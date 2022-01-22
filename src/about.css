@@ -1,0 +1,18 @@
+.about {
+    margin-left: 2vw;
+    margin-top: 4vh;
+    width: 45vw;
+}
+
+.about-title {
+    font-size: 50px;
+}
+.about-discription {
+    margin-top: 2vh;
+    font-size: 2vh;
+    word-spacing: 0.8vh;
+}
+.my-name{
+    color: rgba(146, 136, 136, 0.808);
+    font-size: 2.5vh;
+}
