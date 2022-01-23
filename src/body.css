@@ -3,7 +3,7 @@ div.body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    margin-top: 16vh;
+    margin-top: 20vh;
 }
 .name {
     display: flex;
@@ -17,12 +17,13 @@ div.body {
     justify-content: center;
     font-size: 25px;
     color: rgba(205, 210, 214, 0.699);
-    margin-top: 0px;
+    margin-top: 1vh;
 }
 .job--logo {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin-top: 1vh;
 }
 .log--gitHub {
     display: flex;

@@ -14,7 +14,7 @@ div.app {
   width: 100vw;
   grid-template-rows: 1fr 16fr;
 }
-ul{
+div.links{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -29,8 +29,6 @@ ul{
   text-decoration: none;
 
 }
-
-
 div.body{
   display: flex;
   align-self: center;
