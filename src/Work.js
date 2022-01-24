@@ -8,14 +8,19 @@ export default()=>{
         <div className='react'>
             <div className='react-title'>React</div>
             <div className='react-work'>
-                <div className='netflix'>netflix</div>
-                <div className='hoqueiflix'>hoqueiflix</div>
-                <div className='portfolio'>portfolio</div>
+                <div className='netflix'><h1 onClick={() => setButtonPopup(true)}>Netflix</h1>
+                <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <h2>Netflix</h2>
+                </Popup></div>
+                <div className='hoqueiflix'><h1 onClick={() => setButtonPopup(true)}>Hoqueiflix</h1>
+                <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <h2>hoqueiflix</h2>
+                </Popup></div>
+                <div className='portfolio'><h1 onClick={() => setButtonPopup(true)}>Portfolio</h1>
+                <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                <h2>portfolio</h2>
+                </Popup></div>
             </div>
-            <button onClick={() => setButtonPopup(true)}>open popup</button>
-            <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <h3>My popup</h3>
-            </Popup>
         </div>
     )
 }
