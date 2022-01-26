@@ -1,0 +1,17 @@
+div.react-work{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15vh;
+    cursor: pointer; 
+    width: 250px; 
+    margin-left: 31vw; 
+}
+
+
+.react-work img{
+    width: 220px;
+    padding: 5px;
+}
+.react-work img:hover{
+    width: 250px;
+}
