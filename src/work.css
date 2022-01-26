@@ -1,17 +1,34 @@
 div.react-work{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    margin-top: 15vh;
-    cursor: pointer; 
-    width: 250px; 
-    margin-left: 31vw; 
+    width: 98vw;
+    justify-content: center;
+    margin-top: 10vh;
 }
 
-
-.react-work img{
+.netflixFront img,
+.hoqueiflixFront img,
+.portfolioFront img {
+    width: 220px;
+    padding: 5px;
+}
+.netflixFront img:hover,
+.hoqueiflixFront img:hover,
+.portfolioFront img:hover {
+    width: 225px;
+}
+/* .react-work img{
     width: 220px;
     padding: 5px;
 }
 .react-work img:hover{
     width: 250px;
+} */
+
+div.react-work h2 img{
+    display: flex;
+    position: absolute;
+    width: 50vw;
+    height: 73vh;
+    top:12vh;
 }
