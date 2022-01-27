@@ -1,8 +1,9 @@
 
 body{
   background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-cff15.appspot.com/o/wallpaper-de-surf%20(5).jpg?alt=media&token=654320b7-f2da-4e0c-8fe4-73889e48e2d7");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-color: burlywood;
   color: #fff;
   height: 98vh;
   width: 99vw;
