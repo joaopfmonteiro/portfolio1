@@ -4,6 +4,7 @@ div.react-work{
     width: 98vw;
     justify-content: center;
     margin-top: 10vh;
+    float: left;
 }
 
 .netflixFront img,
@@ -17,18 +18,14 @@ div.react-work{
 .portfolioFront img:hover {
     width: 225px;
 }
-/* .react-work img{
-    width: 220px;
-    padding: 5px;
-}
-.react-work img:hover{
-    width: 250px;
-} */
 
+div.react-work h2{
+    margin: 0px;
+}
 div.react-work h2 img{
     display: flex;
-    position: absolute;
-    width: 50vw;
-    height: 73vh;
-    top:12vh;
+    width: 55vw;
+    height: 80vh;
+    justify-content: center;
+    margin-top: -3vh;
 }
