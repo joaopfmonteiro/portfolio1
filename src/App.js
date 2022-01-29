@@ -14,9 +14,6 @@ const App = () => (
     <div>
       <div className='links'>
         <li><Link to="/">Home</Link></li>
-        <li><Link className='blabla' to="/about"></Link></li>
-        <li><Link to="/work">Work</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
       </div>
 
       <Routes>
