@@ -6,10 +6,21 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default () => {
     return(
 <div className="body">
+    <a href="./about">
     <b className="name">
-        I'm João Monteiro
-    </b>
-    <b className="introduction">
+    </b><br></br></a>
+    <a href="./work">
+    <b className="name1"></b><br></br>
+    </a>
+    <a href="./contact">
+    <b className="name2"></b>
+    </a>
+
+
+
+
+    
+    {/* <b className="introduction">
         Front-End Developer
     </b>
     <b className="job--logo">
@@ -19,7 +30,7 @@ export default () => {
         <b className="log--linkdin">
             <a href="https://www.linkedin.com/in/joao-pereira-monteiro3/" target="_blank"><LinkedInIcon/></a>
         </b>
-    </b>
+    </b> */}
 </div>
     )
 

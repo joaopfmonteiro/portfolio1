@@ -1,12 +1,24 @@
 
 body{
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/portfolio-cff15.appspot.com/o/wallpaper-de-surf%20(5).jpg?alt=media&token=654320b7-f2da-4e0c-8fe4-73889e48e2d7");
-  background-size: 100%;
+  background-image:url("https://firebasestorage.googleapis.com/v0/b/portfolio-cff15.appspot.com/o/Foto_perfil_noBackground.png?alt=media&token=9890e760-d9ce-4f3b-b443-cc84991c88da");
+  background-position: right;
+  background-blend-mode: screen;
+  background-size: 47vw 100vh;
   background-repeat: no-repeat;
-  background-color: burlywood;
-  color: #fff;
+  background-color: black;
   height: 98vh;
   width: 99vw;
+}
+div.backgroundh{
+    width: 99vw;
+    height: 99vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.804) 72%, transparent 100%);
+  }
+  div.backgroundv{
+    width: 99vw;
+    height: 99vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.363) 10%, transparent 70%);
+
 }
 div.app {
   display: grid;

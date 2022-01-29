@@ -8,13 +8,12 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
 const App = () => (
+    <div className='backgroundh'>
+    <div className='backgroundv'>
   <Router>
     <div>
       <div className='links'>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/work">Work</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
       </div>
 
       <Routes>
@@ -31,6 +30,8 @@ const App = () => (
       </Routes> 
     </div>
   </Router>
+    </div>
+    </div>
 );
 
  export default App;

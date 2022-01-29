@@ -3,15 +3,61 @@ div.body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
-.name {
+.name:after {
     display: flex;
-    justify-content: center;
-    font-size: 100px;
+    margin-left: 22vw;
+    font-size: 14vh;
     color:rgba(205, 210, 214, 0.815);
-    height: 100px;
+    height: 14vh;
+    content: "I'm";
 }
+.name:hover::after{
+    display: flex;
+    margin-left: 25vw;
+    font-size: 14vh;
+    color:rgba(205, 210, 214, 0.815);
+    height: 14vh;
+    content: 'About';
+    transition: all ease 0.5s;
+}
+.name1::after {
+    display: flex;
+    margin-left: 22vw;
+    font-size: 14vh;
+    color:rgb(121, 116, 116);
+    height: 14vh;
+    content: 'João';
+}
+.name1:hover:after {
+    display: flex;
+    margin-left: 25vw;
+    font-size: 14vh;
+    color:rgb(121, 116, 116);
+    height: 14h;
+    content: 'Work';
+    transition: all ease 0.5s;
+}
+
+.name2::after {
+    display: flex;
+    margin-left: 22vw;
+    font-size: 14vh;
+    color:rgb(121, 116, 116);
+    height: 14vh;
+    content: "Monteiro";
+}
+.name2:hover:after {
+    display: flex;
+    margin-left: 25vw;
+    font-size: 14vh;
+    color:rgb(121, 116, 116);
+    height: 14vh;
+    content: "Contact";
+    transition: all ease 0.5s;
+}
+
 .introduction {
     display: flex;
     justify-content: center;
