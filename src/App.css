@@ -47,10 +47,3 @@ div.body{
   align-self: center;
   margin-bottom: 10px;
 }
-.blabla::after{
-  content: 'after';
-
-}
-.blabla:hover::after{
-  content: 'cona da mae';
-}
