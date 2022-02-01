@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
 
 div.body {
-    display: flex;
+    display: block;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     margin-top: 10vh;
     font-family: 'Roboto', sans-serif;
 }
@@ -61,13 +61,6 @@ div.body {
     transition: all ease 0.5s;
 }
 
-.introduction {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: rgba(205, 210, 214, 0.699);
-    margin-top: 1vh;
-}
 a {
     color: rgba(205, 210, 214, 0.699);
 }
@@ -76,14 +69,21 @@ a:hover {
     transition: all ease 0.6s;
 }
 @media(max-width: 768px){
+    div.body,
+    a,
+    a:hover,
     .name:after,
     .name:hover::after,
     .name1:hover:after,
     .name1::after,
     .name2::after,
     .name2:hover:after {
-        margin-left: 2vw;
-        font-size: 9vh;
+        margin-left: 1vw;
+        font-size: 7vh;
+        height: 8vh;
+        padding: 1vh;
     }
-    
+    div.body{
+        margin-top: 20vh;
+    }
   }
