@@ -9,9 +9,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 const App = () => (
     <div className='backgroundh'>
-    <div className='backgroundv'>
   <Router>
-    <div>
       <div className='links'>
         <li><Link to="/">Home</Link></li>
       </div>
@@ -27,10 +25,8 @@ const App = () => (
       </Routes> 
       <Routes>
       <Route path="/contact" element={<Contact/>} />
-      </Routes> 
-    </div>
+      </Routes>    
   </Router>
-    </div>
     </div>
 );
 
