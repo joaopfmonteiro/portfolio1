@@ -3,29 +3,33 @@
     margin-left: 2vw;
     margin-top: 4vh;
     width: 45vw;
-    color: rgba(205, 210, 214, 0.726);
     font-family: 'Roboto', sans-serif;
 }
 
 .about-title {
     margin-top: 4vh;
     font-size: 8vh;
+    color: rgba(205, 210, 214, 0.726);
+    font-weight: bold;
 }
 .about-title-1{
     font-size: 8vh;
-    margin-left: 13vh;
+    margin-left: 12vh;
+    color: rgba(205, 210, 214, 0.726);
+    font-weight: bold;
 }
 .about-discription {
     margin-top: 4vh;
     font-size: 2.7vh;
     word-spacing: 0.9vh;
     line-height: 3.5vh;
+    color: rgba(205, 210, 214, 0.63);
 }
 .my-name{
     color: rgba(146, 136, 136, 0.808);
     font-size: 3.5vh;
 }
-@media(max-width: 768px){
+@media only screen and (max-width: 650px){ 
     .about-discription{
         position: absolute;
         width: 90vw;

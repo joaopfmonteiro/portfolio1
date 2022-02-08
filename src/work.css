@@ -29,3 +29,37 @@ div.react-work h2 img{
     justify-content: center;
     margin-top: -3vh;
 }
+@media only screen and (max-width: 650px){
+    .netflixFront img,
+    .hoqueiflixFront img,
+    .portfolioFront img {
+        width: 100px;
+        padding: 5px;
+        margin-top: 10vh;
+    }
+    .netflixFront img:hover,
+    .hoqueiflixFront img:hover,
+    .portfolioFront img:hover {
+        width: 110px;
+    }
+    div.react-work h2 img{
+        display: flex;
+        position: absolute;
+        width: 75vw;
+        height: 50vh;
+        margin-top: 3vh;
+        left: -16px;
+        
+    }
+    .popup--inner .close--btn {
+        position: absolute;
+        top: 9vh;
+        right: -2vw;
+        border-bottom: none;
+        border:none;
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+}
