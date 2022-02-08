@@ -12,7 +12,7 @@ div.body {
     display: flex;
     margin-left: 22vw;
     font-size: 14vh;
-    color:rgba(205, 210, 214, 0.603);
+    color:rgba(205, 210, 214, 0.747);
     height: 14vh;
     content: "I'm";
 }
@@ -92,10 +92,10 @@ a:hover {
     #bottom{
         display: block;
         position: fixed;
-        font-size: 3vh;
+        font-size: 2.5vh;
         text-align: center;
         width: 100vw;
-        bottom: 20px;
+        bottom: 25px;
         animation-name: tap;
         animation-duration: 3s;
         animation-iteration-count: infinite;
