@@ -42,7 +42,7 @@ div.body{
   margin-bottom: 10px;
 }
 
-@media(max-width: 768px){
+@media only screen and (max-width: 650px){
   .div-links{
   position: relative;
   width: 100vw;
@@ -51,7 +51,7 @@ div.body{
   a.link-home{
     position: relative;
     justify-content: center;
-    font-size: 4vh;
+    font-size: 2.5vh;
     align-self: center;
     width: 100vw;
     margin-left: -7vw;
