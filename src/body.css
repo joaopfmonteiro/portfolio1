@@ -71,7 +71,7 @@ a:hover {
 #bottom{
     display: none;
 }
-@media(max-width: 768px){
+@media only screen and (max-width: 768px){
     div.body,
     a,
     a:hover,
