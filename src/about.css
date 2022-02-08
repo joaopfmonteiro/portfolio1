@@ -25,3 +25,16 @@
     color: rgba(146, 136, 136, 0.808);
     font-size: 3.5vh;
 }
+@media(max-width: 768px){
+    .about-discription{
+        position: absolute;
+        width: 90vw;
+    }
+    .about-title,
+    .about-title-1{
+        font-size: 5vh;
+    }
+    .about-discription{
+        font-size:2vh;
+    }
+}

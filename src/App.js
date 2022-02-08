@@ -11,7 +11,7 @@ const App = () => (
     <div className='backgroundh'>
   <Router>
       <div className='links'>
-        <li><Link to="/">Home</Link></li>
+        <li><Link className='link-home' to="/">Home</Link></li>
       </div>
 
       <Routes>

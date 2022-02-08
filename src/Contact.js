@@ -14,10 +14,10 @@ export default()=>{
              Feel free to reach out through any platforms below: </div>
             <div className="contact--logo">
             <b className="contact--gitHub">
-            <a href="https://github.com/joaopfmonteiro" target="_blank" ><GitHubIcon/>GitHub</a>
+            <a className="gitHub" href="https://github.com/joaopfmonteiro" target="_blank" ><GitHubIcon/>GitHub</a>
             </b><br/><br/>
             <b className="contact--linkdin">
-            <a href="https://www.linkedin.com/in/joao-pereira-monteiro3/" target="_blank"><LinkedInIcon/>LinkedIn</a>
+            <a className="linkdin" href="https://www.linkedin.com/in/joao-pereira-monteiro3/" target="_blank"><LinkedInIcon/>LinkedIn</a>
             </b>
         </div>
     </div>

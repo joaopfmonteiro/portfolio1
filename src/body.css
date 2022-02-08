@@ -12,7 +12,7 @@ div.body {
     display: flex;
     margin-left: 22vw;
     font-size: 14vh;
-    color:rgba(205, 210, 214, 0.815);
+    color:rgba(205, 210, 214, 0.603);
     height: 14vh;
     content: "I'm";
 }
@@ -20,7 +20,7 @@ div.body {
     display: flex;
     margin-left: 25vw;
     font-size: 14vh;
-    color:rgba(205, 210, 214, 0.815);
+    color:rgba(205, 210, 214, 0.918);
     height: 14vh;
     content: 'About';
     transition: all ease 0.5s;
@@ -29,7 +29,7 @@ div.body {
     display: flex;
     margin-left: 22vw;
     font-size: 14vh;
-    color:rgb(121, 116, 116);
+    color:rgba(205, 210, 214, 0.603);
     height: 14vh;
     content: 'João';
 }
@@ -37,7 +37,7 @@ div.body {
     display: flex;
     margin-left: 25vw;
     font-size: 14vh;
-    color:rgb(121, 116, 116);
+    color:rgba(205, 210, 214, 0.918);
     height: 14h;
     content: 'Work';
     transition: all ease 0.5s;
@@ -47,7 +47,7 @@ div.body {
     display: flex;
     margin-left: 22vw;
     font-size: 14vh;
-    color:rgb(121, 116, 116);
+    color:rgba(205, 210, 214, 0.603);
     height: 14vh;
     content: "Monteiro";
 }
@@ -55,18 +55,18 @@ div.body {
     display: flex;
     margin-left: 25vw;
     font-size: 14vh;
-    color:rgb(121, 116, 116);
+    color:rgba(205, 210, 214, 0.918);
     height: 14vh;
     content: "Contact";
     transition: all ease 0.5s;
 }
 
 a {
-    color: rgba(205, 210, 214, 0.699);
+    color: rgba(205, 210, 214, 0.568);
 }
 a:hover {
-    color: rgba(205, 210, 214, 0.993); 
-    transition: all ease 0.6s;
+    color: rgb(205, 210, 214); 
+    transition: all ease 0.7s;
 }
 @media(max-width: 768px){
     div.body,
