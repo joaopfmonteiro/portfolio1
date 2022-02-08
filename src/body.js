@@ -15,7 +15,7 @@ export default () => {
     <a href="/contact">
     <b className="name2"></b>
     </a>
+    <footer id="bottom">Tap I'm João Monteiro</footer>
 </div>
     )
-
 }
