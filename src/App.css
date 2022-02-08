@@ -55,6 +55,11 @@ div.body{
     align-self: center;
     width: 100vw;
     margin-left: -7vw;
-
+  }
+  body{
+    background-image:url("https://firebasestorage.googleapis.com/v0/b/portfolio-cff15.appspot.com/o/Foto_perfil_noBackground.png?alt=media&token=9890e760-d9ce-4f3b-b443-cc84991c88da");
+    background-position: absolute;
+    background-size: 200vw 120vh;
+    background-position: -2vw -15vh;
   }
 }
